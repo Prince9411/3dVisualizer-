@@ -16,22 +16,22 @@ async function run() {
     name: "Modern Chair",
     category: "Furniture",
     price: 120,
-    image: "/assets/chair.jpeg",
-    model: "/assets/Duck.glb"
+     image: "https://3d-visualizer-frontend.netlify.app/assets/chair.jpeg",
+        model: "https://3d-visualizer-frontend.netlify.app/assets/Duck.glb"
   },
   {
     name: "Wooden Table",
     category: "Furniture",
     price: 250,
-    image: "/assets/table.webp",
-    model: "/assets/Duck.glb"
+     image: "https://3d-visualizer-frontend.netlify.app/assets/table.webp",
+        model: "https://3d-visualizer-frontend.netlify.app/assets/Duck.glb"
   },
   {
     name: "Decorative Lamp",
     category: "Lighting",
     price: 80,
-    image: "/assets/lamp.jpeg",
-    model: "/assets/Duck.glb"
+      image: "https://3d-visualizer-frontend.netlify.app/assets/lamp.jpeg",
+        model: "https://3d-visualizer-frontend.netlify.app/assets/Duck.glb"
   }
 ];
 
@@ -46,3 +46,4 @@ async function run() {
 }
 
 run();
+
