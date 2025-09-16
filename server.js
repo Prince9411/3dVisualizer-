@@ -50,27 +50,27 @@ app.get("/api/insert-sample", async (req, res) => {
     await products.deleteMany({});
 
     const sampleProducts = [
-      {
-        name: "Modern Chair",
-        category: "Furniture",
-        price: 120,
-        image: "/assets/chair.jpeg",
-        model: "/assets/Duck.glb"
-      },
-      {
-        name: "Wooden Table",
-        category: "Furniture",
-        price: 250,
-        image: "/assets/table.webp",
-        model: "/assets/Duck.glb"
-      },
-      {
-        name: "Decorative Lamp",
-        category: "Lighting",
-        price: 80,
-        image: "/assets/lamp.jpeg",
-        model: "/assets/Duck.glb"
-      }
+        {
+    name: "Modern Chair",
+    category: "Furniture",
+    price: 120,
+     image: "https://3d-visualizer-frontend.netlify.app/assets/chair.jpeg",
+        model: "https://3d-visualizer-frontend.netlify.app/assets/Duck.glb"
+  },
+  {
+    name: "Wooden Table",
+    category: "Furniture",
+    price: 250,
+     image: "https://3d-visualizer-frontend.netlify.app/assets/table.webp",
+        model: "https://3d-visualizer-frontend.netlify.app/assets/Duck.glb"
+  },
+  {
+    name: "Decorative Lamp",
+    category: "Lighting",
+    price: 80,
+      image: "https://3d-visualizer-frontend.netlify.app/assets/lamp.jpeg",
+        model: "https://3d-visualizer-frontend.netlify.app/assets/Duck.glb"
+  }
     ];
 
     const result = await products.insertMany(sampleProducts);
@@ -86,3 +86,4 @@ app.get("/api/insert-sample", async (req, res) => {
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+
