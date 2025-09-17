@@ -54,7 +54,7 @@ app.get("/api/insert-sample", async (req, res) => {
     name: "Modern Chair",
     category: "Furniture",
     price: 120,
-     image: "https://3d-visualizer-frontend.netlify.app/assets/chair.jpeg",
+     image: "https://3d-visualizer-frontend.netlify.app/assets/bed.jpeg",
         model: "https://3d-visualizer-frontend.netlify.app/assets/Duck.glb"
   },
   {
@@ -86,6 +86,7 @@ app.get("/api/insert-sample", async (req, res) => {
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+
 
 
 
