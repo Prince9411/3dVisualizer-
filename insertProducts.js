@@ -16,7 +16,7 @@ async function run() {
     name: "Modern Chair",
     category: "Furniture",
     price: 120,
-     image: "https://3d-visualizer-frontend.netlify.app/assets/chair.jpeg",
+     image: "https://3d-visualizer-frontend.netlify.app/assets/bed.jpeg",
         model: "https://3d-visualizer-frontend.netlify.app/assets/Duck.glb"
   },
   {
@@ -46,4 +46,5 @@ async function run() {
 }
 
 run();
+
 
